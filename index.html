@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2Seatwork2</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<style>
+		body {
+			background: url(https://wallpapercave.com/wp/wp1927677.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		h1 {
+		    font-family: Robotics Mono;
+		    text-align: center;
+		    color: white;
+		    background-color: rgba(0, 0, 0, 0.7);
+		    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+		    padding: 10px; /* Add some padding inside the background area */
+		}
+		label {
+			color: white;
+		}
+		.form-box {
+			background-color: rgba(0, 0, 0, 0.7);
+			border-radius: 10px;
+			padding: 20px;
+			margin-top: 20px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+		}
+		.table td, .table th {
+			border: 1px solid black;
+			padding: 10px;
+		}
+		a{
+		    display: inline-block;
+		    color: white;
+		    text-decoration: none;
+		    font-size: 18px;
+		    padding: 10px;
+		    font-family: Robotics Mono;
+		}
+		a:hover{
+		    color: #00796b;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1><span style="color: teal;">Robotics Club</span> Registration</h1>
+		<div class="form-box">
+			<form class="form-group">
+				<div class="row">
+					<div class="col-md-6">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name">
+					</div>
+					<div class="col-md-6">
+						<label for="age">Age:</label>
+						<input type="number" class="form-control" id="age">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="col-md-6">
+						<label for="phone-number">Phone Number:</label>
+						<input type="text" class="form-control" id="phone-number">
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="RobEx">Robotics Experience:</label><br>
+						<div>
+							<input type="radio" id="beginner" name="RobEx" value="Beginner">
+							<label for="beginner">Beginner</label>
+						</div>
+						<div>
+							<input type="radio" id="intermediate" name="RobEx" value="Intermediate">
+							<label for="intermediate">Intermediate</label>
+						</div>
+						<div>
+							<input type="radio" id="expert" name="RobEx" value="Expert">
+							<label for="expert">Expert</label>
+						</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="RobExCheckbox">Robotics Experience (Checkboxes):</label><br>
+						<div>
+							<input type="checkbox" id="beginnerCheckbox" name="RobExCheckbox" value="Beginner">
+							<label for="beginnerCheckbox">Beginner</label>
+						</div>
+						<div>
+							<input type="checkbox" id="intermediateCheckbox" name="RobExCheckbox" value="Intermediate">
+							<label for="intermediateCheckbox">Intermediate</label>
+						</div>
+						<div>
+							<input type="checkbox" id="expertCheckbox" name="RobExCheckbox" value="Expert">
+							<label for="expertCheckbox">Expert</label>
+						</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="primary-area">Preferred Robotics Primary Area:</label>
+						<select class="form-control" id="primary-area">
+							<option>Choose your desired area...</option>
+							<option value="OpeInter">Operator Interface</option>
+							<option value="Mobility">Mobility</option>
+							<option value="ManEffect">Manipulators & Effectors</option>
+							<option value="Programming">Programming</option>
+							<option value="SenPer">Sensing & Perception</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label for="topic">Preferred Robotics Topic:</label>
+						<select class="form-control" id="primary-area">
+							<option>Choose your desired topic...</option>
+							<option value="InduRob">Industrial Robotics</option>
+							<option value="MedRob">Medical Robotics</option>
+							<option value="SpaRob">Space Robotics</option>
+						</select>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-12">
+						<label for="why">Why do you want to join?</label>
+						<textarea class="form-control" id="reason" rows="4"></textarea>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row" align="center">
+					<div class="d-grid">
+						<button class="btn btn-sm" style="background-color: teal; color: white; border: none;">Submit Form</button>
+					</div>
+				</div>
+			</form>
+
+			<br>
+
+			<div style="text-align: center;">
+			<a href="https://docs.google.com/document/d/1K5yvtX80mGKL8vJVjqZu0xx65zaqpvRNpT90tOQKTHs/edit?tab=t.0" target="_blank">Sources</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
